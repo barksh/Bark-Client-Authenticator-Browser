@@ -21,7 +21,9 @@
   },
   "devDependencies": {
     "@barksh/authentication-types": "^1.0.0",
-    "@sudoo/triforce": "^3.10.1"
+    "@sudoo/triforce": "^3.10.1",
+    "global-jsdom": "^8.7.0",
+    "jsdom": "^21.1.0"
   },
   "nyc": {
     "extension": [
