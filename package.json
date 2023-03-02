@@ -12,8 +12,15 @@
     "url": "https://github.com/BarkSH/Bark-Client-Authenticator-Browser/issues"
   },
   "homepage": "https://github.com/BarkSH/Bark-Client-Authenticator-Browser#readme",
-  "dependencies": {},
+  "peerDependencies": {
+    "@barksh/authentication-types": "*"
+  },
+  "dependencies": {
+    "@sudoo/magic": "^1.9.0",
+    "connor": "^2.8.0"
+  },
   "devDependencies": {
+    "@barksh/authentication-types": "^1.0.0",
     "@sudoo/triforce": "^3.10.1"
   },
   "nyc": {
