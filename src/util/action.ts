@@ -49,9 +49,10 @@ export const executeInquiryActionFromResponse = (
                 return;
             }
             case 'CLOSE': {
+
+                window.close();
                 return;
             }
         }
     }
-
 };
